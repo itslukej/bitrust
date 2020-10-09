@@ -1,0 +1,9 @@
+[package]
+name = "bitrust"
+version = "0.1.0"
+authors = ["Luke James <me@luke.gg>"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "0.2", features = ["full"] }
+structopt = { version = "0.3", default-features = false }
